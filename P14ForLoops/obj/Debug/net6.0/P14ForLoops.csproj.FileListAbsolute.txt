@@ -1,0 +1,15 @@
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.csproj.AssemblyReference.cache
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.AssemblyInfoInputs.cache
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.AssemblyInfo.cs
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.csproj.CoreCompileInputs.cache
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\P14ForLoops.exe
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\P14ForLoops.deps.json
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\P14ForLoops.runtimeconfig.json
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\P14ForLoops.dll
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\ref\P14ForLoops.dll
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\bin\Debug\net6.0\P14ForLoops.pdb
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.dll
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\ref\P14ForLoops.dll
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.pdb
+C:\Projects\gd21-22-0124-csharp-basics-nim-erik-och-hugo\P14ForLoops\obj\Debug\net6.0\P14ForLoops.genruntimeconfig.cache
