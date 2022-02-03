@@ -10,14 +10,14 @@
     }
     else
     {
-              Console.WriteLine($"Counting from {from} to {to}:");
-              for (int i = from; from >= to; from--)
-              {
-                  Console.WriteLine(from);
-              } 
+        Console.WriteLine($"Counting from {from} to {to}:");
+        for (int i = from; from >= to; from--)
+        { 
+           Console.WriteLine(from);
+        }   
     }  
 }
-   
+
 
 Count(2, 3);
 Count(100, 101);
