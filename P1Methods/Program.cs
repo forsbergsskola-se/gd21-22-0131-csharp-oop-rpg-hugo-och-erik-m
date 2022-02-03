@@ -1,24 +1,26 @@
-﻿CountUp();
-static void CountUp()
+﻿static void Count(int from, int to)
 {
-    Console.WriteLine("Counting from 0 to 5:");
-    for (int i = 0; i <= 5; i++)
+    if (from < to)
     {
-        Console.WriteLine(i);
+        Console.WriteLine($"Counting from {from} to {to}:");
+        for (int i = from; from <= to; from++)
+        {
+            Console.WriteLine(from);
+        }
     }
-    
+    else
+    {
+        Console.WriteLine($"Counting from {from} to {to}:");
+        for (int i = from; from >= to; from--)
+        { 
+           Console.WriteLine(from);
+        }   
+    }  
 }
 
 
-CountDown();
-static void CountDown()
-{
-    Console.WriteLine("Counting from 5 to 0:");
-    for (int i = 5; i >= 0; i--)
-    {
-        Console.WriteLine(i);
-    }
-    
-}
-CountUp();
-CountDown();
+Count(2, 3);
+Count(100, 101);
+Count(10, 8);
+Count(1,-1);
+Count(1337,1337);
