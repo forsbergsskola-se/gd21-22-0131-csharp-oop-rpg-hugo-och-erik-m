@@ -6,10 +6,9 @@
 
         while(leet.isAlive)
         {
-            Console.WriteLine("What do you want Leet's health to be");
-            leet.Health = int.Parse(Console.ReadLine());
+            Console.WriteLine("How much damage do you want to deal to Leet?");
+            leet.Damage(int.Parse(Console.ReadLine()));
         }
-        
     }
 }
 
@@ -49,15 +48,19 @@ public class Unit
 
     public int Health
     {
-        set
+        private set
         {
             health = Math.Clamp(value, 0, maxHealth);
             ReportStatus();
         }
-        get
-        {
-            return health;
-        }
+        get { return health; }
+
+    }
+
+    public void Damage(int value)
+    {
+        Health -= value;
+        
     }
 
 
