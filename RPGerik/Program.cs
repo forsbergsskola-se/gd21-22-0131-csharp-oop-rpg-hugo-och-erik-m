@@ -4,24 +4,32 @@
     {
         Unit leet = new Unit("Leet", 1337);
 
-        for (int i = 0; i < 3; i++)
+        while(leet.isAlive)
         {
             Console.WriteLine("What do you want Leet's health to be");
             leet.Health = int.Parse(Console.ReadLine());
         }
         
-        Console.WriteLine("i want to increase his health by 50:");
-        leet.Health += 50;
-        //Unit hobgoblin = new Unit("HobGoblin", 456);
-        //Unit goblinpriest = new Unit("GoblinPriest", 789);
     }
 }
 
 public class Unit
 {
-    public string name;
+    public string Name { get; }
     public int Id;
     public static int nextId;
+
+    public bool isAlive
+    {
+        get
+        {
+            if (health > 0)
+                return true;
+            else
+                return false;
+
+        }
+    }
 
     private int maxHealth;
     private int health;
@@ -29,7 +37,7 @@ public class Unit
 
     public Unit(string name, int maxHealth)
     {
-        this.name = name;
+        Name = name;
         Id = nextId++;
 
         this.maxHealth = maxHealth;
@@ -55,6 +63,6 @@ public class Unit
 
     public void ReportStatus()
     {  
-        Console.WriteLine($"Unit #{Id}: {name} - {health}/{maxHealth} Health");
+        Console.WriteLine($"Unit #{Id}: {Name} - {health}/{maxHealth} Health");
     }
 }
