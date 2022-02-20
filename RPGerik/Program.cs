@@ -2,9 +2,18 @@
 {
     static void Main()
     {
-        Unit goblin = new Unit("Goblin", 123);
-        Unit hobgoblin = new Unit("HobGoblin", 456);
-        Unit goblinpriest = new Unit("GoblinPriest", 789);
+        Unit leet = new Unit("Leet", 1337);
+
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine("What do you want Leet's health to be");
+            leet.Health = int.Parse(Console.ReadLine());
+        }
+        
+        Console.WriteLine("i want to increase his health by 50:");
+        leet.Health += 50;
+        //Unit hobgoblin = new Unit("HobGoblin", 456);
+        //Unit goblinpriest = new Unit("GoblinPriest", 789);
     }
 }
 
@@ -30,11 +39,19 @@ public class Unit
         ReportStatus();
     }
 
-    public void SetHealth(int newHealth)
+    public int Health
     {
-        health = Math.Clamp(newHealth, 0, maxHealth);
-        ReportStatus();
+        set
+        {
+            health = Math.Clamp(value, 0, maxHealth);
+            ReportStatus();
+        }
+        get
+        {
+            return health;
+        }
     }
+
 
     public void ReportStatus()
     {  
